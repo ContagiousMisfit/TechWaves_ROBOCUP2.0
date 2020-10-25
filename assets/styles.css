@@ -1,0 +1,270 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Code:wght@500;700&family=Montserrat:wght@400;500&display=swap');
+body {
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+    background-color: #232323;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+
+/*MENU*/
+
+.menuPrincipal {
+    height: 11vh;
+    width: 100%;
+    background: #1B1B1B;
+    margin: 0;
+    padding: 0;
+    position: fixed;
+    z-index: 1000000;
+}
+
+.menuPrincipal div {
+    float: right;
+    margin: 1% 1%;
+}
+
+.menuPrincipal img {
+    max-width: 11%;
+    margin-left: 2%;
+}
+
+.menuPrincipal a {
+    font-family: Fira Code;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 45px;
+    color: #9c9c9c;
+    text-decoration: none;
+    display: inline-block;
+    transition: 0.3s;
+}
+
+.menuPrincipal a:hover {
+    color: #ffffff;
+    transition: 0.3s;
+}
+
+
+/*SCROLLBAR*/
+
+body::-webkit-scrollbar {
+    width: 11px;
+}
+
+body {
+    scrollbar-width: thin;
+    scrollbar-color: #424242 #B5B5B5;
+}
+
+body::-webkit-scrollbar-track {
+    background: #B5B5B5;
+}
+
+body::-webkit-scrollbar-thumb {
+    background-color: #424242;
+    border-radius: 6px;
+    border: 3px solid #424242;
+}
+
+button {
+    font-family: 'Fira Code', monospace;
+    font-size: 24px;
+    background: none;
+    border-color: black;
+    outline: none;
+    padding: 14px;
+    transition: 0.3s;
+}
+
+button:hover {
+    cursor: pointer;
+    background-color: black;
+    color: #FFFFFF;
+    transition: 0.5s;
+}
+
+
+/*HOME*/
+
+.home img,
+.home2 img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+    height: 80%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    cursor: pointer;
+}
+
+
+/*PROBLEMAS*/
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+a:hover {
+    color: inherit;
+}
+
+.problemas button {
+    text-align: center;
+    margin: auto;
+}
+
+.wrapper {
+    display: flex;
+    justify-content: center;
+}
+
+.problemas h1 {
+    color: #FFFFFF;
+    font-family: 'Fira Code', monospace;
+    font-size: 64px;
+    padding-left: 100px;
+    padding-right: 200px;
+    /*text-align: center;*/
+}
+
+.content-problemas {
+    margin-top: -150px;
+    height: 100%;
+    width: 100%;
+}
+
+.content-problemas p {
+    color: #232323;
+    font-family: 'Montserrat', sans-serif;
+    padding: 50px;
+    padding-top: 20px;
+    line-height: 30px;
+}
+
+.content-problemas h1 {
+    color: #232323;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 34px;
+    padding-left: 50px;
+    padding-top: 40px;
+}
+
+.flex-container {
+    display: flex;
+    padding-top: 150px;
+    padding-left: 100px;
+    padding-right: 200px;
+}
+
+.flex-child {
+    flex: 1;
+}
+
+.texto1,
+.texto2,
+.texto3 {
+    background-color: #FFFFFF;
+    width: 10px;
+    height: 1500px;
+    margin: 20px;
+}
+
+p::selection,
+h1::selection {
+    color: #FFFFFF;
+    background-color: black;
+}
+
+.investimento {
+    background-color: #FFFFFF;
+    padding-bottom: 50px;
+}
+
+.investimento .texto1,
+.investimento .texto2,
+.investimento .texto3,
+.investimento h1,
+.investimento p {
+    color: #ffffff;
+    background-color: #232323;
+}
+
+.investimento .texto1,
+.investimento .texto2,
+.investimento .texto3 {
+    height: 900px;
+}
+
+
+/*parte dificil*/
+
+.inv {
+    font-family: 'Fira Code', monospace;
+    background-color: #FFFFFF;
+    color: black;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+}
+
+.inv .container-txt {
+    margin: auto;
+    width: 50%;
+}
+
+.disabled {
+    display: none;
+}
+
+.inv h1 {
+    font-size: 54px;
+}
+
+.inv button {
+    font-size: 20px;
+}
+
+.inv {
+    height: 3000px;
+}
+
+.inv img {
+    padding-top: 70px;
+}
+
+#Codigo {
+    padding-top: 70px;
+}
+
+.nossa-equipe>h1 {
+    font-size: 50px;
+    padding-top: 50px;
+}
+
+.nossa-equipe .membros h1 {
+    font-size: 30px;
+}
+
+.nossa-equipe .membros img {
+    margin-right: 70px;
+}
+
+.nossa-equipe {
+    padding-bottom: 30px;
+}
+
+.end {
+    padding: 100px;
+    background-color: #232323;
+    height: 100px;
+    width: 3000px;
+    margin-left: -400px;
+}
